@@ -332,6 +332,7 @@ Unchecked AI agents can produce unverified or fragile code. You must wrap agent 
 | **[Chrome DevTools MCP](https://github.com/ChromeDevTools/devtools-mcp)** | Browser Verification | DOM inspection & visual UI debugging | Model Context Protocol over Chrome Puppeteer | Enables LLMs to inspect rendered UI, console errors, and network calls. |
 | **[LightPanda](https://lightpanda.io)** | Headless Browser | Ultra-fast JS browser execution for AI | WebAssembly / Rust headless engine | 10x faster execution & 90% less memory than full Chromium. |
 | **[Agent Browser](https://github.com/browserbase/agent-browser)** | Automation Harness | Headless web agent navigation & interaction | Playwright / Puppeteer abstraction | Automates visual testing and end-to-end user path validation. |
+| **[Agent QA](https://github.com/vostride/agent-qa)** | QA Runner / MCP | Reusable web and mobile QA workflows | Node.js CLI + MCP server over configured providers | Gives agents named QA definitions and structured run results. |
 
 ---
 
@@ -363,6 +364,7 @@ To verify UI layout success, combine agent harnesses with headless browser contr
 * **[Chrome DevTools MCP](https://github.com/ChromeDevTools/devtools-mcp)**: MCP server that connects models to Chrome DevTools. Agents can inspect the DOM tree, trigger click events, check CSS styles, read console errors, and capture screenshots.
 * **[LightPanda](https://lightpanda.io)**: Headless browser written in WebAssembly and Rust for AI agents. It uses 90% less memory and runs 10 times faster than full Chromium instances.
 * **[Agent Browser](https://github.com/browserbase/agent-browser)**: Browser automation framework that gives agents API primitives for page navigation, visual tests, and form validation.
+* **[Agent QA](https://github.com/vostride/agent-qa)** ([Docs](https://vostride.com/docs/agent-qa)): CLI and MCP server for running named QA workflows against web and mobile targets through configured model, browser, and device providers. The package itself has no fee, but provider usage may cost money. It requires Node.js 24 or newer. Current releases use the source-available FSL-1.1-ALv2 license (not OSI-approved) and convert to Apache-2.0 two years after publication.
 
 ---
 
