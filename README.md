@@ -149,6 +149,7 @@ Managed routers evaluate prompt complexity and select models automatically:
 
 * **[tokscale](https://github.com/junhoyeo/tokscale)** ([tokscale.ai](https://tokscale.ai)): Terminal tool and leaderboard that tracks token consumption, throughput, and costs across 30 or more agent environments.
 * **[ccusage](https://github.com/ccusage/ccusage)**: Terminal analytics tool that summarizes token usage and cost for terminal agent platforms.
+* **[SandBase CLI](https://github.com/sandbaseai/cli)**: Apache-2.0 CLI and local MCP bridge whose inspection tool shows current model pricing before a call and whose run history reports per-call costs across a catalog of 2,000+ AI models.
 
 ---
 
