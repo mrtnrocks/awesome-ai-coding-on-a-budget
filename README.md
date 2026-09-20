@@ -152,6 +152,9 @@ Managed routers evaluate prompt complexity and select models automatically:
 
 ---
 
+* **[NextReset](https://nextreset.ai/)**: Independent Codex reset-history resource with source links, official incident updates, and a browser-local personal reset timer.
+
+
 ### Selection Decision Matrix
 
 * **For free tier pooling**: Use **OmniRoute** to combine 90 or more free API tiers.
