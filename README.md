@@ -350,6 +350,7 @@ Unchecked AI agents can produce unverified or fragile code. You must wrap agent 
 
 ### Static Linters, AST Guardrails & Runtime Telemetry
 
+* **[HOL Guard](https://hol.org/guard)**: Adds local policy checks and approval prompts at supported AI coding-agent action points. It does not scan the finished app or cover every agent action.
 * **ESLint & Stylelint AI Guardrails**: Strict linter configurations that filter agent output. Enforce strict types, zero `any` usage, unused variable checks, and automatic code formatting before commits.
 * **[Sentry Spotlight](https://spotlightjs.com)** ([GitHub](https://github.com/getsentry/spotlight)): Desktop toolbar for Sentry. It captures exceptions, console errors, database queries, and traces at `localhost:8969`. It lets agents inspect structured error tracebacks locally.
 * **[Vite+](https://vitejs.dev)**: Application builder and hot-module replacement environment. It provides instant validation for web app components created by AI agents.
