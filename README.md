@@ -142,6 +142,7 @@ Managed routers evaluate prompt complexity and select models automatically:
 * **[OpenRouter Auto Router](https://openrouter.ai/openrouter/auto)** (`openrouter/auto`): Evaluates input prompt complexity and sends requests to the lowest-cost model that can complete the query.
 * **[OpenRouter Fusion Router](https://openrouter.ai/openrouter/fusion)** (`openrouter/fusion`): Combines responses or routes across top models to increase output reliability.
 * **[OpenRouter Pareto Code Router](https://openrouter.ai/openrouter/pareto-code)** (`openrouter/pareto-code`): Selects coding models on the Pareto frontier for speed, cost, and benchmark score.
+* **[TheRouter](https://therouter.ai/)** ([docs](https://therouter.ai/docs/quickstart/) | [models.dev](https://models.dev/providers/therouter/)): Hosted OpenAI-compatible LLM gateway with multi-provider routing, fallback, usage tracking, and team billing. 269+ models across 26 providers.
 
 ---
 
